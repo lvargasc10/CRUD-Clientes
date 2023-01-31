@@ -1,0 +1,42 @@
+<div class="card border-primary mb-3">  
+    <div class="card-header">{{titulo}}</div>
+    <div class="card-body text-primary">  
+      <button class="btn btn-primary my-2" routerLink="/tipo-documentos/form">Crear Tipo Documento</button>
+      <table id="tablaTipoDocumentos" class="table table-striped" style="width:100%">       
+          <thead>
+              <tr>
+                  <th>Id</th>
+                  <th>Descripcion</th>
+                  <th>Siglas</th>                                 
+                  <th>Editar</th>
+                  <th>Eliminar</th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr *ngFor="let tipoDocumentos of lista">
+                  <td>{{tipoDocumentos.id}}</td>
+                  <td>{{tipoDocumentos.descripcion}}</td>
+                  <td>{{tipoDocumentos.siglas}}</td> 
+                  <td>                                        
+                    <button class="btn btn-secondary btn-sm" [routerLink]="['/tipo-documentos/form', tipoDocumentos.id] " (click)="modificar(tipoDocumentos)">
+                      Editar
+                      </button>
+                  </td>
+                  <td>
+                    <button class="btn btn-danger btn-sm" (click)="eliminar(tipoDocumentos)" >
+                      Eliminar
+                    </button>
+                </td>
+              </tr>
+          </tbody>   
+      </table>
+  
+      <mat-paginator [length]="totalRegistros"
+              [pageSize]="totalPorPagina"
+              [pageIndex]="paginaActual"
+              [pageSizeOptions]="pageSizeOptions"
+              (page) = "paginar($event)">
+      </mat-paginator>
+    </div>
+  </div>
+  

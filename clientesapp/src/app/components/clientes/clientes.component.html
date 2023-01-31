@@ -1,0 +1,55 @@
+<div class="card border-primary mb-3">  
+    <div class="card-header">{{titulo}}</div>
+    <div class="card-body text-primary">   
+  
+        <button class="btn btn-primary my-2" routerLink="/clientes/form">Crear Cliente</button>
+      <table id="tablaClientes" class="table table-striped" style="width:100%">       
+          <thead>
+              <tr>
+                  <th>Id</th>
+                  <th>Tipo Documento</th>
+                  <th>Numero Documento</th>
+                  <th>Razon Social</th>
+                  <th>Apellidos</th>
+                  <th>Nombres</th>
+                  <th>Fecha Nacimiento</th>
+                  <th>Genero</th>                  
+                  <th>Editar</th>
+                  <th>Eliminar</th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr *ngFor="let cliente of lista">
+                  <td>{{cliente.id}}</td>
+                  <td>{{cliente.tipoDocumento.siglas}}</td>
+                  <td>{{cliente.numeroDocumento}}</td>
+                  <td>{{cliente.razonSocial}}</td>                  
+                  <td>{{cliente.apellidos}}</td>
+                  <td>{{cliente.nombres}}</td>
+                  <td>{{cliente.fechaNacimiento}}</td>  
+                  <td>{{cliente.genero}}</td>                 
+                  <td>
+                    
+                    <button class="btn btn-secondary btn-sm" [routerLink]="['/clientes/form', cliente.id] " (click)="modificar(cliente)">
+                      Editar
+                      </button>
+                  </td>
+                  <td>
+                    <button class="btn btn-danger btn-sm" (click)="eliminar(cliente)" >
+                      Eliminar
+                    </button>
+                </td>
+              </tr>
+          </tbody>   
+      </table>
+  
+      <mat-paginator [length]="totalRegistros"
+              [pageSize]="totalPorPagina"
+              [pageIndex]="paginaActual"
+              [pageSizeOptions]="pageSizeOptions"
+              (page) = "paginar($event)">
+      </mat-paginator>
+    </div>
+    
+  </div>
+  
