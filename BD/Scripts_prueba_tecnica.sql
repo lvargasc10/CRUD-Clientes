@@ -20,8 +20,8 @@ PRIMARY KEY(id)
 INSERT INTO tipos_documento(descripcion,siglas) VALUES('Cedula de Ciudadania','C.C.');
 INSERT INTO tipos_documento(descripcion,siglas) VALUES('Tarjeta de Identidad','T.I.');
 
-INSERT INTO clientes(tipo_documento,numero_documento, razon_social,apellidos,nombres,fecha_nacimiento,genero) VALUES(1,'106597556',NULL,'Jose','Paramo','1956-06-06','Masculino');
-INSERT INTO clientes(tipo_documento,numero_documento, razon_social,apellidos,nombres,fecha_nacimiento,genero) VALUES(2,'619846129',NULL,'Maria','Roso','1994-01-31','Femenino');
+INSERT INTO clientes(tipo_documento,numero_documento, razon_social,apellidos,nombres,fecha_nacimiento,genero) VALUES(1,'106597556',NULL,'Rodriguez','Jose','1956-06-06','Masculino');
+INSERT INTO clientes(tipo_documento,numero_documento, razon_social,apellidos,nombres,fecha_nacimiento,genero) VALUES(2,'619846129',NULL,'Paramo','Maria','1994-01-31','Femenino');
 
 SELECT * FROM clientes;
 SELECT * FROM tipos_documento
