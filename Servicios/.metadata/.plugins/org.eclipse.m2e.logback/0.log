@@ -1,0 +1,500 @@
+2023-01-31 20:57:39,944 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-01-31 20:58:00,816 [Worker-6: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: pruebaTecnica.common.cliente:common-cliente:0.0.1-SNAPSHOT @ E:\ProyectosDesarrollo\PruebaTecnicaMabel\Servicios\common-cliente\pom.xml.
+2023-01-31 20:58:00,846 [Worker-9: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: pruebaTecnica.common.cliente:common-cliente:0.0.1-SNAPSHOT @ E:\ProyectosDesarrollo\PruebaTecnicaMabel\Servicios\common-cliente\pom.xml.
+2023-01-31 20:58:02,674 [Worker-6: Updating Maven Dependencies] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for pruebaTecnica.common.tipoDocumento:common-tipoDocumento:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+2023-01-31 20:58:02,674 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for pruebaTecnica.common.tipoDocumento:common-tipoDocumento:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+2023-01-31 20:58:07,710 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-31 20:58:07,710 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-01-31 20:58:07,714 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-01-31 20:58:07,726 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-01-31 20:58:07,728 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-31 20:58:07,728 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-01-31 20:58:07,728 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\ProyectosDesarrollo\PruebaTecnicaMabel\Servicios\common-cliente\src\test\resources
+2023-01-31 20:58:08,271 [Worker-0: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: pruebaTecnica.common.service:common-service:0.0.1-SNAPSHOT @ E:\ProyectosDesarrollo\PruebaTecnicaMabel\Servicios\common-service\pom.xml.
+2023-01-31 20:58:08,436 [Worker-0: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for pruebaTecnica.common.tipoDocumento:common-tipoDocumento:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+2023-01-31 20:58:08,845 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-31 20:58:08,845 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-01-31 20:58:08,845 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-01-31 20:58:08,857 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-01-31 20:58:08,859 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-31 20:58:08,859 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-01-31 20:58:08,859 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\ProyectosDesarrollo\PruebaTecnicaMabel\Servicios\common-service\src\test\resources
+2023-01-31 20:58:09,083 [Worker-0: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: pruebaTecnica.common.tipoDocumento:common-tipoDocumento:0.0.1-SNAPSHOT @ E:\ProyectosDesarrollo\PruebaTecnicaMabel\Servicios\common-tipoDocumento\pom.xml.
+2023-01-31 20:58:09,502 [Worker-0: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for pruebaTecnica.common.tipoDocumento:common-tipoDocumento:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+2023-01-31 20:58:09,570 [Worker-0: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: pruebaTecnica.common.cliente:common-cliente:0.0.1-SNAPSHOT @ E:\ProyectosDesarrollo\PruebaTecnicaMabel\Servicios\common-cliente\pom.xml.
+2023-01-31 20:58:09,593 [Worker-0: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-tipoDocumento: pruebaTecnica.common.tipoDocumento:common-tipoDocumento:0.0.1-SNAPSHOT with classifier  to /common-tipoDocumento/target/classes
+2023-01-31 20:58:09,794 [Worker-0: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: pruebaTecnica.common.service:common-service:0.0.1-SNAPSHOT @ E:\ProyectosDesarrollo\PruebaTecnicaMabel\Servicios\common-service\pom.xml.
+2023-01-31 20:58:09,815 [Worker-0: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-tipoDocumento: pruebaTecnica.common.tipoDocumento:common-tipoDocumento:0.0.1-SNAPSHOT with classifier  to /common-tipoDocumento/target/classes
+2023-01-31 20:58:10,609 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-31 20:58:10,610 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-01-31 20:58:10,610 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-01-31 20:58:10,660 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-01-31 20:58:10,663 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-31 20:58:10,663 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-01-31 20:58:10,663 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\ProyectosDesarrollo\PruebaTecnicaMabel\Servicios\common-tipoDocumento\src\test\resources
+2023-01-31 20:58:11,416 [Worker-0: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: pruebaTecnica.clientes:servicio-clientes:0.0.1-SNAPSHOT @ E:\ProyectosDesarrollo\PruebaTecnicaMabel\Servicios\servicio-clientes\pom.xml.
+2023-01-31 20:58:14,553 [Worker-0: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-service: pruebaTecnica.common.service:common-service:0.0.1-SNAPSHOT with classifier  to /common-service/target/classes
+2023-01-31 20:58:14,553 [Worker-0: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-tipoDocumento: pruebaTecnica.common.tipoDocumento:common-tipoDocumento:0.0.1-SNAPSHOT with classifier  to /common-tipoDocumento/target/classes
+2023-01-31 20:58:14,572 [Worker-0: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-cliente: pruebaTecnica.common.cliente:common-cliente:0.0.1-SNAPSHOT with classifier  to /common-cliente/target/classes
+2023-01-31 20:58:16,245 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-31 20:58:16,245 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-01-31 20:58:16,245 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-01-31 20:58:16,345 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-01-31 20:58:16,356 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-31 20:58:16,356 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-01-31 20:58:16,356 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\ProyectosDesarrollo\PruebaTecnicaMabel\Servicios\servicio-clientes\src\test\resources
+2023-01-31 20:58:18,804 [Worker-0: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: pruebaTecnica.eureka:servicio-eureka:0.0.1-SNAPSHOT @ E:\ProyectosDesarrollo\PruebaTecnicaMabel\Servicios\servicio-eureka\pom.xml.
+2023-01-31 20:58:24,115 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-01-31 20:58:24,138 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-01-31 20:58:24,140 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\ProyectosDesarrollo\PruebaTecnicaMabel\Servicios\servicio-eureka\src\test\resources
+2023-01-31 20:58:24,493 [Worker-0: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: pruebaTecnica.servicio.gateway:servicio-gateway:0.0.1-SNAPSHOT @ E:\ProyectosDesarrollo\PruebaTecnicaMabel\Servicios\servicio-gateway\pom.xml.
+2023-01-31 20:58:26,742 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-31 20:58:26,742 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-01-31 20:58:26,742 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-01-31 20:58:26,791 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-01-31 20:58:26,793 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-31 20:58:26,794 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-01-31 20:58:26,794 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\ProyectosDesarrollo\PruebaTecnicaMabel\Servicios\servicio-gateway\src\test\resources
+2023-01-31 20:58:27,011 [Worker-0: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: pruebaTecnica.tipoDocumentos:servicio-tipoDocumentos:0.0.1-SNAPSHOT @ E:\ProyectosDesarrollo\PruebaTecnicaMabel\Servicios\servicio-tipoDocumentos\pom.xml.
+2023-01-31 20:58:27,247 [Worker-0: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-service: pruebaTecnica.common.service:common-service:0.0.1-SNAPSHOT with classifier  to /common-service/target/classes
+2023-01-31 20:58:27,247 [Worker-0: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-tipoDocumento: pruebaTecnica.common.tipoDocumento:common-tipoDocumento:0.0.1-SNAPSHOT with classifier  to /common-tipoDocumento/target/classes
+2023-01-31 20:58:27,676 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-31 20:58:27,676 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-01-31 20:58:27,676 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-01-31 20:58:27,720 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-01-31 20:58:27,725 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-31 20:58:27,725 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-01-31 20:58:27,725 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\ProyectosDesarrollo\PruebaTecnicaMabel\Servicios\servicio-tipoDocumentos\src\test\resources
+2023-01-31 20:58:28,314 [Worker-9: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: pruebaTecnica.common.cliente:common-cliente:0.0.1-SNAPSHOT @ E:\ProyectosDesarrollo\PruebaTecnicaMabel\Servicios\common-cliente\pom.xml.
+2023-01-31 20:58:28,466 [Worker-9: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-tipoDocumento: pruebaTecnica.common.tipoDocumento:common-tipoDocumento:0.0.1-SNAPSHOT with classifier  to /common-tipoDocumento/target/classes
+2023-01-31 20:58:29,153 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-31 20:58:29,153 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-01-31 20:58:29,156 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-01-31 20:58:29,167 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-01-31 20:58:29,170 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-31 20:58:29,170 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-01-31 20:58:29,170 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\ProyectosDesarrollo\PruebaTecnicaMabel\Servicios\common-cliente\src\test\resources
+2023-01-31 20:58:29,302 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-31 20:58:29,302 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-01-31 20:58:29,303 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-01-31 20:58:29,305 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-01-31 20:58:29,306 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-31 20:58:29,307 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-01-31 20:58:29,307 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\ProyectosDesarrollo\PruebaTecnicaMabel\Servicios\common-service\src\test\resources
+2023-01-31 20:58:29,500 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-31 20:58:29,500 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-01-31 20:58:29,501 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-01-31 20:58:29,503 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-01-31 20:58:29,505 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-31 20:58:29,505 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-01-31 20:58:29,505 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\ProyectosDesarrollo\PruebaTecnicaMabel\Servicios\common-tipoDocumento\src\test\resources
+2023-01-31 20:58:29,642 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-31 20:58:29,642 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-01-31 20:58:29,643 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-01-31 20:58:29,644 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-01-31 20:58:29,648 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-31 20:58:29,648 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-01-31 20:58:29,648 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\ProyectosDesarrollo\PruebaTecnicaMabel\Servicios\servicio-clientes\src\test\resources
+2023-01-31 20:58:29,761 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-01-31 20:58:29,762 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-01-31 20:58:29,764 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\ProyectosDesarrollo\PruebaTecnicaMabel\Servicios\servicio-eureka\src\test\resources
+2023-01-31 20:58:29,862 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-31 20:58:29,862 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-01-31 20:58:29,863 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-01-31 20:58:29,865 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-01-31 20:58:29,867 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-31 20:58:29,867 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-01-31 20:58:29,867 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\ProyectosDesarrollo\PruebaTecnicaMabel\Servicios\servicio-gateway\src\test\resources
+2023-01-31 20:58:29,951 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-31 20:58:29,951 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-01-31 20:58:29,952 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-01-31 20:58:29,954 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-01-31 20:58:29,958 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-31 20:58:29,958 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-01-31 20:58:29,958 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\ProyectosDesarrollo\PruebaTecnicaMabel\Servicios\servicio-tipoDocumentos\src\test\resources
+2023-01-31 20:58:53,102 [Worker-0: Launching servicio-tipoDocumentos - ServicioTipoDocumentosApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-service: pruebaTecnica.common.service:common-service:0.0.1-SNAPSHOT with classifier null to /common-service/target/classes
+2023-01-31 20:58:53,103 [Worker-0: Launching servicio-tipoDocumentos - ServicioTipoDocumentosApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-tipoDocumento: pruebaTecnica.common.tipoDocumento:common-tipoDocumento:0.0.1-SNAPSHOT with classifier null to /common-tipoDocumento/target/classes
+2023-01-31 20:58:53,290 [Worker-0: Launching servicio-tipoDocumentos - ServicioTipoDocumentosApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-service: pruebaTecnica.common.service:common-service:0.0.1-SNAPSHOT with classifier null to /common-service/target/classes
+2023-01-31 20:58:53,290 [Worker-0: Launching servicio-tipoDocumentos - ServicioTipoDocumentosApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-tipoDocumento: pruebaTecnica.common.tipoDocumento:common-tipoDocumento:0.0.1-SNAPSHOT with classifier null to /common-tipoDocumento/target/classes
+2023-01-31 20:58:53,479 [Worker-0: Launching servicio-tipoDocumentos - ServicioTipoDocumentosApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-service: pruebaTecnica.common.service:common-service:0.0.1-SNAPSHOT with classifier null to /common-service/target/classes
+2023-01-31 20:58:53,480 [Worker-0: Launching servicio-tipoDocumentos - ServicioTipoDocumentosApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-tipoDocumento: pruebaTecnica.common.tipoDocumento:common-tipoDocumento:0.0.1-SNAPSHOT with classifier null to /common-tipoDocumento/target/classes
+2023-01-31 20:59:01,621 [Worker-10: Launching servicio-clientes - ServicioClientesApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-service: pruebaTecnica.common.service:common-service:0.0.1-SNAPSHOT with classifier null to /common-service/target/classes
+2023-01-31 20:59:01,621 [Worker-10: Launching servicio-clientes - ServicioClientesApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-tipoDocumento: pruebaTecnica.common.tipoDocumento:common-tipoDocumento:0.0.1-SNAPSHOT with classifier null to /common-tipoDocumento/target/classes
+2023-01-31 20:59:01,622 [Worker-10: Launching servicio-clientes - ServicioClientesApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-cliente: pruebaTecnica.common.cliente:common-cliente:0.0.1-SNAPSHOT with classifier null to /common-cliente/target/classes
+2023-01-31 20:59:01,809 [Worker-10: Launching servicio-clientes - ServicioClientesApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-service: pruebaTecnica.common.service:common-service:0.0.1-SNAPSHOT with classifier null to /common-service/target/classes
+2023-01-31 20:59:01,810 [Worker-10: Launching servicio-clientes - ServicioClientesApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-tipoDocumento: pruebaTecnica.common.tipoDocumento:common-tipoDocumento:0.0.1-SNAPSHOT with classifier null to /common-tipoDocumento/target/classes
+2023-01-31 20:59:01,810 [Worker-10: Launching servicio-clientes - ServicioClientesApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-cliente: pruebaTecnica.common.cliente:common-cliente:0.0.1-SNAPSHOT with classifier null to /common-cliente/target/classes
+2023-01-31 20:59:02,006 [Worker-10: Launching servicio-clientes - ServicioClientesApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-service: pruebaTecnica.common.service:common-service:0.0.1-SNAPSHOT with classifier null to /common-service/target/classes
+2023-01-31 20:59:02,007 [Worker-10: Launching servicio-clientes - ServicioClientesApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-tipoDocumento: pruebaTecnica.common.tipoDocumento:common-tipoDocumento:0.0.1-SNAPSHOT with classifier null to /common-tipoDocumento/target/classes
+2023-01-31 20:59:02,007 [Worker-10: Launching servicio-clientes - ServicioClientesApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-cliente: pruebaTecnica.common.cliente:common-cliente:0.0.1-SNAPSHOT with classifier null to /common-cliente/target/classes
+2023-01-31 21:58:58,266 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-31 21:58:58,266 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-01-31 21:58:58,266 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-01-31 21:58:58,266 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-01-31 21:58:58,268 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-31 21:58:58,268 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-01-31 21:58:58,269 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\ProyectosDesarrollo\PruebaTecnicaMabel\Servicios\common-cliente\src\test\resources
+2023-01-31 21:58:58,281 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-31 21:58:58,281 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-01-31 21:58:58,281 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-01-31 21:58:58,282 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-01-31 21:58:58,283 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-31 21:58:58,283 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-01-31 21:58:58,284 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\ProyectosDesarrollo\PruebaTecnicaMabel\Servicios\common-service\src\test\resources
+2023-01-31 21:58:58,297 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-31 21:58:58,297 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-01-31 21:58:58,297 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-01-31 21:58:58,297 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-01-31 21:58:58,300 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-31 21:58:58,300 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-01-31 21:58:58,300 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\ProyectosDesarrollo\PruebaTecnicaMabel\Servicios\common-tipoDocumento\src\test\resources
+2023-01-31 21:58:58,318 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-31 21:58:58,318 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-01-31 21:58:58,318 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-01-31 21:58:58,318 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-01-31 21:58:58,320 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-31 21:58:58,320 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-01-31 21:58:58,320 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\ProyectosDesarrollo\PruebaTecnicaMabel\Servicios\servicio-clientes\src\test\resources
+2023-01-31 21:58:58,334 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-01-31 21:58:58,335 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-01-31 21:58:58,337 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\ProyectosDesarrollo\PruebaTecnicaMabel\Servicios\servicio-eureka\src\test\resources
+2023-01-31 21:58:58,351 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-31 21:58:58,351 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-01-31 21:58:58,351 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-01-31 21:58:58,351 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-01-31 21:58:58,353 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-31 21:58:58,353 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-01-31 21:58:58,353 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\ProyectosDesarrollo\PruebaTecnicaMabel\Servicios\servicio-gateway\src\test\resources
+2023-01-31 21:58:58,370 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-31 21:58:58,371 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-01-31 21:58:58,371 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-01-31 21:58:58,371 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-01-31 21:58:58,373 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-31 21:58:58,373 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-01-31 21:58:58,373 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\ProyectosDesarrollo\PruebaTecnicaMabel\Servicios\servicio-tipoDocumentos\src\test\resources
+2023-01-31 22:19:37,152 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-31 22:19:37,152 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-01-31 22:19:37,153 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-01-31 22:19:37,170 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-01-31 22:19:37,172 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-31 22:19:37,172 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-01-31 22:19:37,172 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\ProyectosDesarrollo\PruebaTecnicaMabel\Servicios\common-cliente\src\test\resources
+2023-01-31 22:24:36,761 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-31 22:24:36,761 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-01-31 22:24:36,761 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-01-31 22:24:36,764 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-01-31 22:24:36,766 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-31 22:24:36,766 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-01-31 22:24:36,766 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\ProyectosDesarrollo\PruebaTecnicaMabel\Servicios\common-cliente\src\test\resources
+2023-01-31 22:28:51,685 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-31 22:28:51,685 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-01-31 22:28:51,685 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-01-31 22:28:51,699 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-01-31 22:28:51,701 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-31 22:28:51,701 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-01-31 22:28:51,701 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\ProyectosDesarrollo\PruebaTecnicaMabel\Servicios\common-cliente\src\test\resources
+2023-01-31 22:29:20,027 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-31 22:29:20,027 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-01-31 22:29:20,027 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-01-31 22:29:20,031 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-01-31 22:29:20,032 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-31 22:29:20,033 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-01-31 22:29:20,033 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\ProyectosDesarrollo\PruebaTecnicaMabel\Servicios\common-cliente\src\test\resources
+2023-01-31 22:40:38,243 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-31 22:40:38,243 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-01-31 22:40:38,243 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-01-31 22:40:38,249 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-01-31 22:40:38,251 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-31 22:40:38,252 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-01-31 22:40:38,252 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\ProyectosDesarrollo\PruebaTecnicaMabel\Servicios\common-cliente\src\test\resources
+2023-01-31 22:58:58,568 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-31 22:58:58,568 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-01-31 22:58:58,568 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-01-31 22:58:58,573 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-01-31 22:58:58,575 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-31 22:58:58,575 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-01-31 22:58:58,575 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\ProyectosDesarrollo\PruebaTecnicaMabel\Servicios\common-cliente\src\test\resources
+2023-01-31 23:04:13,478 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-31 23:04:13,478 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-01-31 23:04:13,479 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-01-31 23:04:13,485 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-01-31 23:04:13,488 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-31 23:04:13,488 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-01-31 23:04:13,488 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\ProyectosDesarrollo\PruebaTecnicaMabel\Servicios\common-cliente\src\test\resources
+2023-01-31 23:05:50,681 [Worker-55: Launching servicio-clientes - ServicioClientesApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-service: pruebaTecnica.common.service:common-service:0.0.1-SNAPSHOT with classifier null to /common-service/target/classes
+2023-01-31 23:05:50,681 [Worker-55: Launching servicio-clientes - ServicioClientesApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-tipoDocumento: pruebaTecnica.common.tipoDocumento:common-tipoDocumento:0.0.1-SNAPSHOT with classifier null to /common-tipoDocumento/target/classes
+2023-01-31 23:05:50,681 [Worker-55: Launching servicio-clientes - ServicioClientesApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-cliente: pruebaTecnica.common.cliente:common-cliente:0.0.1-SNAPSHOT with classifier null to /common-cliente/target/classes
+2023-01-31 23:05:50,860 [Worker-55: Launching servicio-clientes - ServicioClientesApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-service: pruebaTecnica.common.service:common-service:0.0.1-SNAPSHOT with classifier null to /common-service/target/classes
+2023-01-31 23:05:50,860 [Worker-55: Launching servicio-clientes - ServicioClientesApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-tipoDocumento: pruebaTecnica.common.tipoDocumento:common-tipoDocumento:0.0.1-SNAPSHOT with classifier null to /common-tipoDocumento/target/classes
+2023-01-31 23:05:50,861 [Worker-55: Launching servicio-clientes - ServicioClientesApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-cliente: pruebaTecnica.common.cliente:common-cliente:0.0.1-SNAPSHOT with classifier null to /common-cliente/target/classes
+2023-01-31 23:05:51,045 [Worker-55: Launching servicio-clientes - ServicioClientesApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-service: pruebaTecnica.common.service:common-service:0.0.1-SNAPSHOT with classifier null to /common-service/target/classes
+2023-01-31 23:05:51,046 [Worker-55: Launching servicio-clientes - ServicioClientesApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-tipoDocumento: pruebaTecnica.common.tipoDocumento:common-tipoDocumento:0.0.1-SNAPSHOT with classifier null to /common-tipoDocumento/target/classes
+2023-01-31 23:05:51,046 [Worker-55: Launching servicio-clientes - ServicioClientesApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-cliente: pruebaTecnica.common.cliente:common-cliente:0.0.1-SNAPSHOT with classifier null to /common-cliente/target/classes
+2023-01-31 23:22:58,723 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-31 23:22:58,724 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-01-31 23:22:58,724 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-01-31 23:22:58,729 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-01-31 23:22:58,732 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-31 23:22:58,732 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-01-31 23:22:58,732 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\ProyectosDesarrollo\PruebaTecnicaMabel\Servicios\common-cliente\src\test\resources
+2023-01-31 23:31:06,830 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-31 23:31:06,830 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-01-31 23:31:06,830 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-01-31 23:31:06,839 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-01-31 23:31:06,841 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-31 23:31:06,841 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-01-31 23:31:06,841 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\ProyectosDesarrollo\PruebaTecnicaMabel\Servicios\common-cliente\src\test\resources
+2023-01-31 23:37:19,987 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-31 23:37:19,987 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-01-31 23:37:19,987 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-01-31 23:37:20,000 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-01-31 23:37:20,002 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-31 23:37:20,002 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-01-31 23:37:20,002 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\ProyectosDesarrollo\PruebaTecnicaMabel\Servicios\common-cliente\src\test\resources
+2023-02-02 11:57:39,623 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-02-02 11:57:52,805 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-02 11:57:52,806 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-02-02 11:57:52,810 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-02-02 11:57:52,861 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-02-02 11:57:52,865 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-02 11:57:52,866 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-02-02 11:57:52,866 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\ProyectosDesarrollo\PruebaTecnicaMabel\Servicios\servicio-gateway\src\test\resources
+2023-02-02 11:57:58,817 [Worker-9: Launching servicio-clientes - ServicioClientesApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-service: pruebaTecnica.common.service:common-service:0.0.1-SNAPSHOT with classifier  to /common-service/target/classes
+2023-02-02 11:57:58,816 [Worker-5: Launching servicio-tipoDocumentos - ServicioTipoDocumentosApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-service: pruebaTecnica.common.service:common-service:0.0.1-SNAPSHOT with classifier  to /common-service/target/classes
+2023-02-02 11:57:58,819 [Worker-9: Launching servicio-clientes - ServicioClientesApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-tipoDocumento: pruebaTecnica.common.tipoDocumento:common-tipoDocumento:0.0.1-SNAPSHOT with classifier  to /common-tipoDocumento/target/classes
+2023-02-02 11:57:58,819 [Worker-5: Launching servicio-tipoDocumentos - ServicioTipoDocumentosApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-tipoDocumento: pruebaTecnica.common.tipoDocumento:common-tipoDocumento:0.0.1-SNAPSHOT with classifier  to /common-tipoDocumento/target/classes
+2023-02-02 11:57:58,836 [Worker-9: Launching servicio-clientes - ServicioClientesApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-cliente: pruebaTecnica.common.cliente:common-cliente:0.0.1-SNAPSHOT with classifier  to /common-cliente/target/classes
+2023-02-02 11:57:59,430 [Worker-5: Launching servicio-tipoDocumentos - ServicioTipoDocumentosApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-service: pruebaTecnica.common.service:common-service:0.0.1-SNAPSHOT with classifier null to /common-service/target/classes
+2023-02-02 11:57:59,430 [Worker-5: Launching servicio-tipoDocumentos - ServicioTipoDocumentosApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-tipoDocumento: pruebaTecnica.common.tipoDocumento:common-tipoDocumento:0.0.1-SNAPSHOT with classifier null to /common-tipoDocumento/target/classes
+2023-02-02 11:57:59,430 [Worker-9: Launching servicio-clientes - ServicioClientesApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-service: pruebaTecnica.common.service:common-service:0.0.1-SNAPSHOT with classifier null to /common-service/target/classes
+2023-02-02 11:57:59,431 [Worker-9: Launching servicio-clientes - ServicioClientesApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-tipoDocumento: pruebaTecnica.common.tipoDocumento:common-tipoDocumento:0.0.1-SNAPSHOT with classifier null to /common-tipoDocumento/target/classes
+2023-02-02 11:57:59,432 [Worker-9: Launching servicio-clientes - ServicioClientesApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-cliente: pruebaTecnica.common.cliente:common-cliente:0.0.1-SNAPSHOT with classifier null to /common-cliente/target/classes
+2023-02-02 11:57:59,700 [Worker-5: Launching servicio-tipoDocumentos - ServicioTipoDocumentosApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-service: pruebaTecnica.common.service:common-service:0.0.1-SNAPSHOT with classifier null to /common-service/target/classes
+2023-02-02 11:57:59,700 [Worker-5: Launching servicio-tipoDocumentos - ServicioTipoDocumentosApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-tipoDocumento: pruebaTecnica.common.tipoDocumento:common-tipoDocumento:0.0.1-SNAPSHOT with classifier null to /common-tipoDocumento/target/classes
+2023-02-02 11:57:59,701 [Worker-9: Launching servicio-clientes - ServicioClientesApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-service: pruebaTecnica.common.service:common-service:0.0.1-SNAPSHOT with classifier null to /common-service/target/classes
+2023-02-02 11:57:59,702 [Worker-9: Launching servicio-clientes - ServicioClientesApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-tipoDocumento: pruebaTecnica.common.tipoDocumento:common-tipoDocumento:0.0.1-SNAPSHOT with classifier null to /common-tipoDocumento/target/classes
+2023-02-02 11:57:59,702 [Worker-9: Launching servicio-clientes - ServicioClientesApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-cliente: pruebaTecnica.common.cliente:common-cliente:0.0.1-SNAPSHOT with classifier null to /common-cliente/target/classes
+2023-02-02 11:58:00,090 [Worker-5: Launching servicio-tipoDocumentos - ServicioTipoDocumentosApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-service: pruebaTecnica.common.service:common-service:0.0.1-SNAPSHOT with classifier null to /common-service/target/classes
+2023-02-02 11:58:00,090 [Worker-5: Launching servicio-tipoDocumentos - ServicioTipoDocumentosApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-tipoDocumento: pruebaTecnica.common.tipoDocumento:common-tipoDocumento:0.0.1-SNAPSHOT with classifier null to /common-tipoDocumento/target/classes
+2023-02-02 11:58:00,329 [Worker-9: Launching servicio-clientes - ServicioClientesApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-service: pruebaTecnica.common.service:common-service:0.0.1-SNAPSHOT with classifier null to /common-service/target/classes
+2023-02-02 11:58:00,330 [Worker-9: Launching servicio-clientes - ServicioClientesApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-tipoDocumento: pruebaTecnica.common.tipoDocumento:common-tipoDocumento:0.0.1-SNAPSHOT with classifier null to /common-tipoDocumento/target/classes
+2023-02-02 11:58:00,338 [Worker-9: Launching servicio-clientes - ServicioClientesApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-cliente: pruebaTecnica.common.cliente:common-cliente:0.0.1-SNAPSHOT with classifier null to /common-cliente/target/classes
+2023-02-02 12:15:36,991 [Worker-21: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-tipoDocumento: pruebaTecnica.common.tipoDocumento:common-tipoDocumento:0.0.1-SNAPSHOT with classifier  to /common-tipoDocumento/target/classes
+2023-02-02 12:15:37,125 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-02 12:15:37,126 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-02-02 12:15:37,126 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-02-02 12:15:37,146 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-02-02 12:15:37,149 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-02 12:15:37,149 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-02-02 12:15:37,149 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\ProyectosDesarrollo\PruebaTecnicaMabel\Servicios\common-cliente\src\test\resources
+2023-02-02 12:15:55,263 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-02 12:15:55,263 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-02-02 12:15:55,270 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-02-02 12:15:55,274 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-02-02 12:15:55,286 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-02 12:15:55,286 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-02-02 12:15:55,286 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\ProyectosDesarrollo\PruebaTecnicaMabel\Servicios\common-cliente\src\test\resources
+2023-02-02 12:21:38,409 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-02 12:21:38,409 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-02-02 12:21:38,410 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-02-02 12:21:38,412 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-02-02 12:21:38,414 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-02 12:21:38,414 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-02-02 12:21:38,414 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\ProyectosDesarrollo\PruebaTecnicaMabel\Servicios\common-cliente\src\test\resources
+2023-02-02 12:25:25,996 [Worker-28: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-tipoDocumento: pruebaTecnica.common.tipoDocumento:common-tipoDocumento:0.0.1-SNAPSHOT with classifier  to /common-tipoDocumento/target/classes
+2023-02-02 12:25:26,109 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-02 12:25:26,109 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-02-02 12:25:26,109 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-02-02 12:25:26,127 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-02-02 12:25:26,130 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-02 12:25:26,130 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-02-02 12:25:26,130 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\ProyectosDesarrollo\PruebaTecnicaMabel\Servicios\common-service\src\test\resources
+2023-02-02 12:29:19,350 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-02 12:29:19,351 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-02-02 12:29:19,351 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-02-02 12:29:19,357 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-02-02 12:29:19,360 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-02 12:29:19,360 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-02-02 12:29:19,360 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\ProyectosDesarrollo\PruebaTecnicaMabel\Servicios\common-cliente\src\test\resources
+2023-02-02 12:32:21,587 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-02 12:32:21,587 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-02-02 12:32:21,588 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-02-02 12:32:21,593 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-02-02 12:32:21,595 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-02 12:32:21,595 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-02-02 12:32:21,596 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\ProyectosDesarrollo\PruebaTecnicaMabel\Servicios\common-cliente\src\test\resources
+2023-02-02 12:32:49,205 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-02 12:32:49,205 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-02-02 12:32:49,205 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-02-02 12:32:49,259 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-02-02 12:32:49,263 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-02 12:32:49,263 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-02-02 12:32:49,263 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\ProyectosDesarrollo\PruebaTecnicaMabel\Servicios\servicio-tipoDocumentos\src\test\resources
+2023-02-02 12:32:51,488 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-02 12:32:51,488 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-02-02 12:32:51,489 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-02-02 12:32:51,489 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-02-02 12:32:51,492 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-02 12:32:51,492 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-02-02 12:32:51,492 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\ProyectosDesarrollo\PruebaTecnicaMabel\Servicios\servicio-tipoDocumentos\src\test\resources
+2023-02-02 12:41:15,792 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-02 12:41:15,793 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-02-02 12:41:15,793 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-02-02 12:41:15,798 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-02-02 12:41:15,801 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-02 12:41:15,801 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-02-02 12:41:15,801 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\ProyectosDesarrollo\PruebaTecnicaMabel\Servicios\common-cliente\src\test\resources
+2023-02-02 12:41:55,918 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-02 12:41:55,919 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-02-02 12:41:55,919 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-02-02 12:41:55,971 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-02-02 12:41:55,974 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-02 12:41:55,974 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-02-02 12:41:55,974 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\ProyectosDesarrollo\PruebaTecnicaMabel\Servicios\common-tipoDocumento\src\test\resources
+2023-02-02 12:42:48,485 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-02 12:42:48,485 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-02-02 12:42:48,485 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-02-02 12:42:48,489 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-02-02 12:42:48,492 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-02 12:42:48,492 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-02-02 12:42:48,492 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\ProyectosDesarrollo\PruebaTecnicaMabel\Servicios\common-cliente\src\test\resources
+2023-02-02 12:42:51,084 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-02 12:42:51,084 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-02-02 12:42:51,085 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-02-02 12:42:51,142 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-02-02 12:42:51,146 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-02 12:42:51,146 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-02-02 12:42:51,146 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\ProyectosDesarrollo\PruebaTecnicaMabel\Servicios\servicio-clientes\src\test\resources
+2023-02-02 12:58:53,437 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-02 12:58:53,438 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-02-02 12:58:53,447 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-02-02 12:58:53,453 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-02-02 12:58:53,455 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-02 12:58:53,455 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-02-02 12:58:53,455 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\ProyectosDesarrollo\PruebaTecnicaMabel\Servicios\common-service\src\test\resources
+2023-02-02 13:02:49,126 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-02 13:02:49,126 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-02-02 13:02:49,127 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-02-02 13:02:49,132 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-02-02 13:02:49,133 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-02 13:02:49,134 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-02-02 13:02:49,134 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\ProyectosDesarrollo\PruebaTecnicaMabel\Servicios\servicio-clientes\src\test\resources
+2023-02-02 13:04:50,172 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-02 13:04:50,172 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-02-02 13:04:50,173 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-02-02 13:04:50,176 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-02-02 13:04:50,178 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-02 13:04:50,178 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-02-02 13:04:50,179 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\ProyectosDesarrollo\PruebaTecnicaMabel\Servicios\servicio-clientes\src\test\resources
+2023-02-02 13:06:11,185 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-02 13:06:11,185 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-02-02 13:06:11,186 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-02-02 13:06:11,189 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-02-02 13:06:11,192 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-02 13:06:11,192 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-02-02 13:06:11,192 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\ProyectosDesarrollo\PruebaTecnicaMabel\Servicios\servicio-clientes\src\test\resources
+2023-02-02 13:06:30,739 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-02 13:06:30,739 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-02-02 13:06:30,740 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-02-02 13:06:30,744 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-02-02 13:06:30,746 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-02 13:06:30,746 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-02-02 13:06:30,747 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\ProyectosDesarrollo\PruebaTecnicaMabel\Servicios\servicio-clientes\src\test\resources
+2023-02-02 13:11:30,572 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-02 13:11:30,573 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-02-02 13:11:30,573 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-02-02 13:11:30,578 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-02-02 13:11:30,580 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-02 13:11:30,580 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-02-02 13:11:30,580 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\ProyectosDesarrollo\PruebaTecnicaMabel\Servicios\servicio-clientes\src\test\resources
+2023-02-02 13:13:37,000 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-02 13:13:37,000 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-02-02 13:13:37,000 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-02-02 13:13:37,004 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-02-02 13:13:37,006 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-02 13:13:37,007 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-02-02 13:13:37,007 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\ProyectosDesarrollo\PruebaTecnicaMabel\Servicios\servicio-clientes\src\test\resources
+2023-02-02 13:25:25,312 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-02 13:25:25,312 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-02-02 13:25:25,312 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-02-02 13:25:25,318 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-02-02 13:25:25,321 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-02 13:25:25,321 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-02-02 13:25:25,321 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\ProyectosDesarrollo\PruebaTecnicaMabel\Servicios\servicio-clientes\src\test\resources
+2023-02-02 13:26:02,330 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-02 13:26:02,331 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-02-02 13:26:02,331 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-02-02 13:26:02,337 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-02-02 13:26:02,339 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-02 13:26:02,339 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-02-02 13:26:02,339 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\ProyectosDesarrollo\PruebaTecnicaMabel\Servicios\servicio-clientes\src\test\resources
+2023-02-02 13:30:29,591 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-02 13:30:29,592 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-02-02 13:30:29,592 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-02-02 13:30:29,635 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-02-02 13:30:29,638 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-02 13:30:29,638 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-02-02 13:30:29,638 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\ProyectosDesarrollo\PruebaTecnicaMabel\Servicios\servicio-clientes\src\test\resources
+2023-02-02 13:31:21,634 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-02 13:31:21,634 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-02-02 13:31:21,634 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-02-02 13:31:21,638 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-02-02 13:31:21,641 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-02 13:31:21,641 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-02-02 13:31:21,641 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\ProyectosDesarrollo\PruebaTecnicaMabel\Servicios\servicio-clientes\src\test\resources
+2023-02-02 13:40:04,678 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-02 13:40:04,678 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-02-02 13:40:04,678 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-02-02 13:40:04,684 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-02-02 13:40:04,686 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-02 13:40:04,686 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-02-02 13:40:04,686 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\ProyectosDesarrollo\PruebaTecnicaMabel\Servicios\servicio-clientes\src\test\resources
+2023-02-02 13:41:18,234 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-02 13:41:18,234 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-02-02 13:41:18,234 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-02-02 13:41:18,237 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-02-02 13:41:18,239 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-02 13:41:18,239 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-02-02 13:41:18,239 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\ProyectosDesarrollo\PruebaTecnicaMabel\Servicios\servicio-clientes\src\test\resources
+2023-02-02 13:41:42,155 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-02 13:41:42,155 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-02-02 13:41:42,155 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-02-02 13:41:42,160 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-02-02 13:41:42,162 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-02 13:41:42,162 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-02-02 13:41:42,162 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\ProyectosDesarrollo\PruebaTecnicaMabel\Servicios\servicio-clientes\src\test\resources
+2023-02-02 13:42:22,613 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-02 13:42:22,613 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-02-02 13:42:22,613 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-02-02 13:42:22,617 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-02-02 13:42:22,620 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-02 13:42:22,620 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-02-02 13:42:22,620 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\ProyectosDesarrollo\PruebaTecnicaMabel\Servicios\servicio-clientes\src\test\resources
+2023-02-02 13:46:37,629 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-02 13:46:37,629 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-02-02 13:46:37,629 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-02-02 13:46:37,635 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-02-02 13:46:37,638 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-02 13:46:37,638 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-02-02 13:46:37,638 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\ProyectosDesarrollo\PruebaTecnicaMabel\Servicios\servicio-clientes\src\test\resources
+2023-02-02 14:17:24,945 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-02-02 14:48:15,090 [Worker-15: Launching servicio-tipoDocumentos - ServicioTipoDocumentosApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-service: pruebaTecnica.common.service:common-service:0.0.1-SNAPSHOT with classifier  to /common-service/target/classes
+2023-02-02 14:48:15,094 [Worker-15: Launching servicio-tipoDocumentos - ServicioTipoDocumentosApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-tipoDocumento: pruebaTecnica.common.tipoDocumento:common-tipoDocumento:0.0.1-SNAPSHOT with classifier  to /common-tipoDocumento/target/classes
+2023-02-02 14:48:15,362 [Worker-14: Launching servicio-clientes - ServicioClientesApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-service: pruebaTecnica.common.service:common-service:0.0.1-SNAPSHOT with classifier  to /common-service/target/classes
+2023-02-02 14:48:15,362 [Worker-14: Launching servicio-clientes - ServicioClientesApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-tipoDocumento: pruebaTecnica.common.tipoDocumento:common-tipoDocumento:0.0.1-SNAPSHOT with classifier  to /common-tipoDocumento/target/classes
+2023-02-02 14:48:15,403 [Worker-14: Launching servicio-clientes - ServicioClientesApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-cliente: pruebaTecnica.common.cliente:common-cliente:0.0.1-SNAPSHOT with classifier  to /common-cliente/target/classes
+2023-02-02 14:48:15,855 [Worker-15: Launching servicio-tipoDocumentos - ServicioTipoDocumentosApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-service: pruebaTecnica.common.service:common-service:0.0.1-SNAPSHOT with classifier null to /common-service/target/classes
+2023-02-02 14:48:15,856 [Worker-15: Launching servicio-tipoDocumentos - ServicioTipoDocumentosApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-tipoDocumento: pruebaTecnica.common.tipoDocumento:common-tipoDocumento:0.0.1-SNAPSHOT with classifier null to /common-tipoDocumento/target/classes
+2023-02-02 14:48:16,199 [Worker-14: Launching servicio-clientes - ServicioClientesApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-service: pruebaTecnica.common.service:common-service:0.0.1-SNAPSHOT with classifier null to /common-service/target/classes
+2023-02-02 14:48:16,200 [Worker-14: Launching servicio-clientes - ServicioClientesApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-tipoDocumento: pruebaTecnica.common.tipoDocumento:common-tipoDocumento:0.0.1-SNAPSHOT with classifier null to /common-tipoDocumento/target/classes
+2023-02-02 14:48:16,202 [Worker-14: Launching servicio-clientes - ServicioClientesApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-cliente: pruebaTecnica.common.cliente:common-cliente:0.0.1-SNAPSHOT with classifier null to /common-cliente/target/classes
+2023-02-02 14:48:16,221 [Worker-15: Launching servicio-tipoDocumentos - ServicioTipoDocumentosApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-service: pruebaTecnica.common.service:common-service:0.0.1-SNAPSHOT with classifier null to /common-service/target/classes
+2023-02-02 14:48:16,222 [Worker-15: Launching servicio-tipoDocumentos - ServicioTipoDocumentosApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-tipoDocumento: pruebaTecnica.common.tipoDocumento:common-tipoDocumento:0.0.1-SNAPSHOT with classifier null to /common-tipoDocumento/target/classes
+2023-02-02 14:48:16,511 [Worker-15: Launching servicio-tipoDocumentos - ServicioTipoDocumentosApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-service: pruebaTecnica.common.service:common-service:0.0.1-SNAPSHOT with classifier null to /common-service/target/classes
+2023-02-02 14:48:16,511 [Worker-15: Launching servicio-tipoDocumentos - ServicioTipoDocumentosApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-tipoDocumento: pruebaTecnica.common.tipoDocumento:common-tipoDocumento:0.0.1-SNAPSHOT with classifier null to /common-tipoDocumento/target/classes
+2023-02-02 14:48:16,524 [Worker-14: Launching servicio-clientes - ServicioClientesApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-service: pruebaTecnica.common.service:common-service:0.0.1-SNAPSHOT with classifier null to /common-service/target/classes
+2023-02-02 14:48:16,525 [Worker-14: Launching servicio-clientes - ServicioClientesApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-tipoDocumento: pruebaTecnica.common.tipoDocumento:common-tipoDocumento:0.0.1-SNAPSHOT with classifier null to /common-tipoDocumento/target/classes
+2023-02-02 14:48:16,526 [Worker-14: Launching servicio-clientes - ServicioClientesApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-cliente: pruebaTecnica.common.cliente:common-cliente:0.0.1-SNAPSHOT with classifier null to /common-cliente/target/classes
+2023-02-02 14:48:16,929 [Worker-14: Launching servicio-clientes - ServicioClientesApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-service: pruebaTecnica.common.service:common-service:0.0.1-SNAPSHOT with classifier null to /common-service/target/classes
+2023-02-02 14:48:16,930 [Worker-14: Launching servicio-clientes - ServicioClientesApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-tipoDocumento: pruebaTecnica.common.tipoDocumento:common-tipoDocumento:0.0.1-SNAPSHOT with classifier null to /common-tipoDocumento/target/classes
+2023-02-02 14:48:16,932 [Worker-14: Launching servicio-clientes - ServicioClientesApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common-cliente: pruebaTecnica.common.cliente:common-cliente:0.0.1-SNAPSHOT with classifier null to /common-cliente/target/classes
