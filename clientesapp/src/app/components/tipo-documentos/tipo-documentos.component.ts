@@ -12,8 +12,7 @@ import Swal from 'sweetalert2';
 export class TipoDocumentosComponent implements OnInit {
 
   titulo:string ='Listado Tipo Documentos';
-  lista:TipoDocumento[]=[];
- 
+  lista:TipoDocumento[]=[]; 
   tipoDocumentos:TipoDocumento = new TipoDocumento();
   totalRegistros=0;
   totalPorPagina=5;
@@ -23,6 +22,7 @@ export class TipoDocumentosComponent implements OnInit {
 
   ngOnInit(): void {
     this.calcularRangos();
+    
   }
 
   editar(descripcion: string):void{    

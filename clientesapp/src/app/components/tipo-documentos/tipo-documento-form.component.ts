@@ -3,6 +3,7 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { TipoDocumento } from 'src/app/models/tipoDocumento';
 import { TipoDocumentoService } from 'src/app/services/tipoDocumento.service';
+
 import Swal from 'sweetalert2';
 
 @Component({

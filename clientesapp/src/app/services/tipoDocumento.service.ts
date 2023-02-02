@@ -11,7 +11,7 @@ export class TipoDocumentoService {
   private urlEndPoint:string = 'http://localhost:8090/api/tipo-documentos/';
   private httpHeaders = new HttpHeaders({'Content-Type':'application/json'});
   constructor(private http:HttpClient) { 
-  
+      
    }
 
   listar():Observable<TipoDocumento[]>{

@@ -9,7 +9,7 @@ export class Cliente {
     razonSocial:string="";
     apellidos:string="";
     nombres:string="";
-    fechaNacimiento:Date= new Date('yyyy-MM-dd');
+    fechaNacimiento:Date= new Date("yyyy-MM-dd");
     genero:string=""; 
     
 }

@@ -18,7 +18,17 @@ public class TipoDocumento implements Serializable{
 	private String descripcion;
 	private String siglas;
 
-
+	public TipoDocumento(Long id, String descripcion, String siglas) {
+		super();
+		this.id = id;
+		this.descripcion = descripcion;
+		this.siglas = siglas;
+	}
+	
+	public TipoDocumento() {
+		
+	}
+	
 	public Long getId() {
 		return id;
 	}

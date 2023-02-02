@@ -15,6 +15,8 @@ import javax.persistence.Table;
 import com.fasterxml.jackson.annotation.JsonFormat;
 
 
+
+
 @Entity
 @Table(name="clientes")
 public class Cliente implements Serializable{
@@ -37,7 +39,23 @@ public class Cliente implements Serializable{
 	@JsonFormat(pattern="yyyy-MM-dd")
 	private Date fechaNacimiento;
 
-	private String genero;
+	private String genero;	
+
+	public Cliente(Long id, TipoDocumento tipoDocumento, String numeroDocumento, String razonSocial, String apellidos,
+			String nombres, Date fechaNacimiento, String genero) {
+		super();
+		this.id = id;
+		this.tipoDocumento = tipoDocumento;
+		this.numeroDocumento = numeroDocumento;
+		this.razonSocial = razonSocial;
+		this.apellidos = apellidos;
+		this.nombres = nombres;
+		this.fechaNacimiento = fechaNacimiento;
+		this.genero = genero;
+	}
+	
+	public Cliente() {}
+	
 
 	public Long getId() {
 		return id;

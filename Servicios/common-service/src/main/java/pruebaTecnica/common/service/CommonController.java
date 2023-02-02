@@ -56,7 +56,9 @@ public class CommonController<E, S extends CommonService<E>> {
 		if(result.hasErrors()) {
 			return this.validar(result);
 		}
+		System.out.println(entity);
 		return ResponseEntity.status(HttpStatus.CREATED).body(service.save(entity));
+		
 	}
 	
 	

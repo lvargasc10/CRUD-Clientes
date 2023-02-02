@@ -41,6 +41,7 @@ public class ClienteController extends CommonController<Cliente,ClienteService> 
 		cliente.setFechaNacimiento(clien.getFechaNacimiento());		
 		cliente.setGenero(clien.getGenero());
 		
+		
 		return ResponseEntity.status(HttpStatus.CREATED).body(service.save(cliente));
 	}
 	

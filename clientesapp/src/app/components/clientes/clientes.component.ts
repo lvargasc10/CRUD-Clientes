@@ -3,6 +3,7 @@ import { PageEvent } from '@angular/material/paginator';
 import { Cliente } from 'src/app/models/cliente';
 import { ClienteService } from 'src/app/services/cliente.service';
 import { TipoDocumento } from "src/app/models/tipoDocumento";
+import { TipoDocumentoService } from 'src/app/services/tipoDocumento.service';
 
 
 
@@ -14,31 +15,36 @@ import Swal from 'sweetalert2';
 })
 export class ClientesComponent implements OnInit {
 
-
-
   titulo:string ='Listado Clientes';
   lista:Cliente[]=[];
+  listaD:TipoDocumento[]=[];
   cliente:Cliente = new Cliente();
   totalRegistros=0;
   totalPorPagina=5;
   paginaActual=0;
   pageSizeOptions: number[] = [5,10,25,100];
-  constructor(private service:ClienteService) { }
+  constructor(private service:ClienteService,private serviceD:TipoDocumentoService) { }
+ 
 
   ngOnInit(): void { 
     this.calcularRangos();  
    }
 
   editar(numeroDocumento: string):void{    
-    this.cliente.numeroDocumento=numeroDocumento;    
-    
+    this.cliente.numeroDocumento=numeroDocumento;        
   }
 
   private calcularRangos(){
     this.service.listarPagina(this.paginaActual.toString(),
     this.totalPorPagina.toString()).subscribe(p => {
       this.lista= p.content as Cliente[];
-      this.totalRegistros = p.totalElements as number;      
+      this.totalRegistros = p.totalElements as number;  
+      
+    });
+    this.serviceD.listarPagina(this.paginaActual.toString(),
+    this.totalPorPagina.toString()).subscribe(p => {
+      this.listaD= p.content as TipoDocumento[];
+      this.totalRegistros = p.totalElements as number;  
     });
   }
 

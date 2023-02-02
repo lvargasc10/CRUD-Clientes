@@ -5,7 +5,7 @@ import { Cliente } from 'src/app/models/cliente';
 import { ClienteService } from 'src/app/services/cliente.service';
 import { TipoDocumento } from "src/app/models/tipoDocumento";
 import { PageEvent } from '@angular/material/paginator';
-
+import { TipoDocumentoService } from 'src/app/services/tipoDocumento.service';
 
 import Swal from 'sweetalert2';
 
@@ -18,13 +18,32 @@ import Swal from 'sweetalert2';
 export class ClienteFormComponent implements OnInit {
 
   titulo:string='Formulario Cliente';
+  listaD:TipoDocumento[]=[];
+
+  totalRegistros=0;
+  totalPorPagina=5;
+  paginaActual=0;
+  pageSizeOptions: number[] = [5,10,25,100];
+
   cliente:Cliente = new Cliente();    
   error:any;
-  constructor(private service:ClienteService, private router:Router, private route:ActivatedRoute) { }
+
+  constructor(private service:ClienteService, private router:Router, private route:ActivatedRoute,private serviceD:TipoDocumentoService) { }
 
   ngOnInit(): void {
-    this.editar();
+    this.editar();   
+    this.listarDocs(); 
     
+  }
+
+  private listarDocs(){
+    this.serviceD.listarPagina(this.paginaActual.toString(),
+    this.totalPorPagina.toString()).subscribe(p => {
+      this.listaD= p.content as TipoDocumento[];
+      this.totalRegistros = p.totalElements as number;  
+     
+    });
+
   }
 
   crear(){    
@@ -36,6 +55,7 @@ export class ClienteFormComponent implements OnInit {
         this.error = err.error;
       }
     })
+    console.log(this.cliente.fechaNacimiento.toString());
   }
 
   editar():void{

@@ -14,9 +14,8 @@
 	<div class="col">
 		<div ngbDropdown class="d-inline-block">			
             <select class="form-select" name="tipoDocumento" ngModel [(ngModel)]="cliente.tipoDocumento.id">
-                <option value="0" disabled selected>Seleccionar</option>  
-                <option value="1">C.C.</option>
-                <option value="2">T.I.</option>              
+                <option value="0" disabled selected>Seleccionar</option>                
+                <option [ngValue]="objeto.id" *ngFor="let objeto of listaD">{{objeto.siglas}}</option>                                           
              </select>
 		</div>
 	</div>
@@ -29,33 +28,33 @@
             <div class="form-group">
                 <label for="numeroDocumento">Numero Documento</label>
                 <input type="text" name="numeroDocumento" id="numeroDocumento" class="form-control"
-                    placeholder="NumeroDocumento" [(ngModel)]="cliente.numeroDocumento">
+                    placeholder="Número Documento" [(ngModel)]="cliente.numeroDocumento">
                 <div class="alert alert-danger" *ngIf="error && error.numeroDocumento">{{error.numeroDocumento}}</div>
             </div>
             <div class="form-group">
                 <label for="razonSocial">Razon Social</label>
-                <input type="text" name="razonSocial" id="razonSocial" class="form-control" placeholder="razonSocial"
+                <input type="text" name="razonSocial" id="razonSocial" class="form-control" placeholder="Razón Social"
                     [(ngModel)]="cliente.razonSocial">
                 <div class="alert alert-danger" *ngIf="error && error.razonSocial">{{error.razonSocial}}</div>
             </div>
             <div class="form-group">
                 <label for="apellidos">Apellidos</label>
-                <input type="text" name="apellidos" id="apellidos" class="form-control" placeholder="apellidos"
+                <input type="text" name="apellidos" id="apellidos" class="form-control" placeholder="Apellidos"
                     [(ngModel)]="cliente.apellidos">
                 <div class="alert alert-danger" *ngIf="error && error.apellidos">{{error.apellidos}}</div>
             </div>
             <div class="form-group">
                 <label for="nombres">Nombres</label>
-                <input type="text" name="nombres" id="nombres" class="form-control" placeholder="nombres"
+                <input type="text" name="nombres" id="nombres" class="form-control" placeholder="Nombres"
                     [(ngModel)]="cliente.nombres">
                 <div class="alert alert-danger" *ngIf="error && error.nombres">{{error.nombres}}</div>
             </div>
+
             <div class="form-group">
-                <label for="fechaNacimiento" ng-bind="formatDate(date) |  date:'MM/dd/yyyy'">Fecha Nacimiento</label>
-           
+                <label for="fechaNacimiento" >Fecha Nacimiento</label>           
                 <input type="date" name="fechaNacimiento" id="fechaNacimiento" class="form-control"
-                    placeholder="fechaNacimiento" [(ngModel)]="cliente.fechaNacimiento">
-                <div class="alert alert-danger" *ngIf="error && error.fechaNacimiento">{{error.fechaNacimiento}}</div>
+                    [(ngModel)]="cliente.fechaNacimiento">
+                <div class="alert alert-danger" *ngIf="error && error.fechaNacimiento">{{cliente.fechaNacimiento}}</div>
             </div>
 
             <div class="form-group">
