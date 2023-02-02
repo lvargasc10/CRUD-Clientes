@@ -1,55 +1,69 @@
-<div class="card border-primary mb-3">  
-    <div class="card-header">{{titulo}}</div>
-    <div class="card-body text-primary">   
-  
-        <button class="btn btn-primary my-2" routerLink="/clientes/form">Crear Cliente</button>
-      <table id="tablaClientes" class="table table-striped" style="width:100%">       
-          <thead>
-              <tr>
-                  <th>Id</th>
-                  <th>Tipo Documento</th>
-                  <th>Número Documento</th>
-                  <th>Razón Social</th>
-                  <th>Apellidos</th>
-                  <th>Nombres</th>
-                  <th>Fecha Nacimiento</th>
-                  <th>Género</th>                  
-                  <th>Editar</th>
-                  <th>Eliminar</th>
-              </tr>
-          </thead>
-          <tbody>
-              <tr *ngFor="let cliente of lista">
-                  <td>{{cliente.id}}</td>
-                  <td>{{cliente.tipoDocumento.siglas}}</td>
-                  <td>{{cliente.numeroDocumento}}</td>
-                  <td>{{cliente.razonSocial}}</td>                  
-                  <td>{{cliente.apellidos}}</td>
-                  <td>{{cliente.nombres}}</td>
-                  <td>{{cliente.fechaNacimiento}}</td>  
-                  <td>{{cliente.genero}}</td>                 
-                  <td>
-                    
-                    <button class="btn btn-secondary btn-sm" [routerLink]="['/clientes/form', cliente.id] " (click)="modificar(cliente)">
-                      Editar
-                      </button>
-                  </td>
-                  <td>
-                    <button class="btn btn-danger btn-sm" (click)="eliminar(cliente)" >
-                      Eliminar
-                    </button>
-                </td>
-              </tr>
-          </tbody>   
-      </table>
-  
-      <mat-paginator [length]="totalRegistros"
-              [pageSize]="totalPorPagina"
-              [pageIndex]="paginaActual"
-              [pageSizeOptions]="pageSizeOptions"
-              (page) = "paginar($event)">
-      </mat-paginator>
-    </div>
-    
+<div class="card border-primary mb-3">
+  <div class="card-header">{{titulo}}</div>
+  <div class="card-body text-primary">
+
+    <button class="btn btn-primary my-2" routerLink="/clientes/form">Crear Cliente</button>
+    <table id="tablaClientes" class="table table-striped" style="width:100%">
+      <thead>
+        <tr>
+          <th>Id</th>
+          <th>Tipo Documento</th>
+          <th>Número Documento</th>
+          <th>Razón Social</th>
+          <th>Apellidos</th>
+          <th>Nombres</th>
+          <th>Fecha Nacimiento</th>
+          <th>Género</th>
+          <th>Editar</th>
+          <th>Eliminar</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let cliente of lista">
+          <td>{{cliente.id}}</td>
+          <td>{{cliente.tipoDocumento.siglas}}</td>
+          <td>{{cliente.numeroDocumento}}</td>
+          <td>{{cliente.razonSocial}}</td>
+          <td>{{cliente.apellidos}}</td>
+          <td>{{cliente.nombres}}</td>
+          <td>{{cliente.fechaNacimiento}}</td>
+          <td>{{cliente.genero}}</td>
+          <td>
+
+            <button class="btn btn-secondary btn-sm" [routerLink]="['/clientes/form', cliente.id] "
+              (click)="modificar(cliente)">
+              Editar
+            </button>
+          </td>
+          <td>
+            <button class="btn btn-danger btn-sm" (click)="eliminar(cliente)">
+              Eliminar
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>    
+
+    <mat-paginator [length]="totalRegistros" [pageSize]="totalPorPagina" [pageIndex]="paginaActual"
+      [pageSizeOptions]="pageSizeOptions" (page)="paginar($event)">
+    </mat-paginator>
   </div>
-  
+</div>
+<br />
+<form>
+  <div class="form-row align-items-center">
+    <div class="col-sm-3 my-1">
+      <label class="sr-only" for="valorIngresado">Consultar cliente por documento</label>    
+      <input type="text" name="valorIngresado" id="valorIngresado" class="form-control"
+                    [(ngModel)]="valorIngresado">           
+    </div>
+    </div>
+    <div class="col-auto my-1">
+      <div class="input-group-append">
+      <button class="btn btn-primary input-group-append" (click)="buscarDocumento(valorIngresado)">
+        Consultar
+      </button>
+    </div>
+    </div>
+</form>
+

@@ -12,67 +12,66 @@ import Swal from 'sweetalert2';
 @Component({
   selector: 'app-cliente-form',
   templateUrl: './cliente-form.component.html',
-  styleUrls: ['./cliente-form.component.css'] 
+  styleUrls: ['./cliente-form.component.css']
 
 })
 export class ClienteFormComponent implements OnInit {
 
-  titulo:string='Formulario Cliente';
-  listaD:TipoDocumento[]=[];
+  titulo: string = 'Formulario Cliente';
+  listaD: TipoDocumento[] = [];
 
-  totalRegistros=0;
-  totalPorPagina=5;
-  paginaActual=0;
-  pageSizeOptions: number[] = [5,10,25,100];
+  totalRegistros = 0;
+  totalPorPagina = 5;
+  paginaActual = 0;
+  pageSizeOptions: number[] = [5, 10, 25, 100];
 
-  cliente:Cliente = new Cliente();    
-  error:any;
+  cliente: Cliente = new Cliente();
+  error: any;
 
-  constructor(private service:ClienteService, private router:Router, private route:ActivatedRoute,private serviceD:TipoDocumentoService) { }
+  constructor(private service: ClienteService, private router: Router, private route: ActivatedRoute, private serviceD: TipoDocumentoService) { }
 
   ngOnInit(): void {
-    this.editar();   
-    this.listarDocs(); 
-    
+    this.editar();
+    this.listarDocs();
+
   }
 
-  private listarDocs(){
+  private listarDocs() {
     this.serviceD.listarPagina(this.paginaActual.toString(),
-    this.totalPorPagina.toString()).subscribe(p => {
-      this.listaD= p.content as TipoDocumento[];
-      this.totalRegistros = p.totalElements as number;  
-     
-    });
+      this.totalPorPagina.toString()).subscribe(p => {
+        this.listaD = p.content as TipoDocumento[];
+        this.totalRegistros = p.totalElements as number;
+
+      });
 
   }
 
-  crear(){    
-    this.service.crear(this.cliente).subscribe(cliente =>{
-      Swal.fire('Crear Cliente',`Cliente ${cliente.numeroDocumento} fue creado con exito`,'success');
+  crear() {
+    this.service.crear(this.cliente).subscribe(cliente => {
+      Swal.fire('Crear Cliente', `Cliente ${cliente.numeroDocumento} fue creado con exito`, 'success');
       this.router.navigate(['/clientes']);
-    }, err =>{
-      if(err.status === 400){
+    }, err => {
+      if (err.status === 400) {
         this.error = err.error;
       }
     })
-    console.log(this.cliente.fechaNacimiento.toString());
   }
 
-  editar():void{
-    this.route.params.subscribe(params =>{
+  editar(): void {
+    this.route.params.subscribe(params => {
       let id = params['id'];
-      if(id){
-        this.service.ver(id).subscribe((cliente) => this.cliente=cliente);
+      if (id) {
+        this.service.ver(id).subscribe((cliente) => this.cliente = cliente);
       }
     })
   }
 
-  modificar(){
-    this.service.modificar(this.cliente).subscribe(cliente =>{
-      Swal.fire('Modificado',`Cliente ${cliente.numeroDocumento} modificado con exito`,`success`)
+  modificar() {
+    this.service.modificar(this.cliente).subscribe(cliente => {
+      Swal.fire('Modificado', `Cliente ${cliente.numeroDocumento} modificado con exito`, `success`)
       this.router.navigate(['/clientes']);
-    }, err =>{
-      if(err.status === 400){
+    }, err => {
+      if (err.status === 400) {
         this.error = err.error;
       }
     })

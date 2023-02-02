@@ -19,14 +19,12 @@ CONSTRAINT fk_tdocumento FOREIGN KEY (tipo_documento) REFERENCES tipo_documentos
 PRIMARY KEY(id)
 );
 
-
 INSERT INTO tipo_documentos(descripcion,siglas) VALUES('Cedula de Ciudadania','C.C.');
 INSERT INTO tipo_documentos(descripcion,siglas) VALUES('Tarjeta de Identidad','T.I.');
 
-INSERT INTO clientes(tipo_documento,numero_documento, razon_social,apellidos,nombres,fecha_nacimiento,genero) VALUES(1,'106597556',NULL,'Jose','Paramo','1999-02-01','Masculino');
-INSERT INTO clientes(tipo_documento,numero_documento, razon_social,apellidos,nombres,fecha_nacimiento,genero) VALUES(2,'619846129',NULL,'Maria','Roso','2000-08-10','Femenino');
+INSERT INTO clientes(tipo_documento,numero_documento, razon_social,apellidos,nombres,fecha_nacimiento,genero) VALUES(1,'106597556',NULL,'Carillo','Jose','1999-02-01','Masculino');
+INSERT INTO clientes(tipo_documento,numero_documento, razon_social,apellidos,nombres,fecha_nacimiento,genero) VALUES(2,'619846129',NULL,'Rodriguez','Maria','2000-08-10','Femenino');
 
 SELECT * FROM clientes;
-SELECT * FROM empleados
-
-DESCRIBE clientes;
+SELECT * FROM tipo_documentos;
+SELECT * FROM clientes WHERE numero_documento = '619846129'

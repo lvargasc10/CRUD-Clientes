@@ -8,6 +8,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -45,11 +46,10 @@ public class ClienteController extends CommonController<Cliente,ClienteService> 
 		return ResponseEntity.status(HttpStatus.CREATED).body(service.save(cliente));
 	}
 	
-	/*
-	@GetMapping("/cedula/{identificacion}")
-	public ResponseEntity<?> empleadoCedula(@PathVariable String identificacion) {
-		return ResponseEntity.ok(service.buscarEmpleadoCedula(identificacion));
+	@GetMapping("/clientes/{numeroDocumento}")
+	public ResponseEntity<?> clienteDocumento(@PathVariable String numeroDocumento) {
+		return ResponseEntity.ok(service.buscarClienteDocumento(numeroDocumento));
 	}
-	*/
+	
 	
 }
