@@ -11,39 +11,39 @@ import Swal from 'sweetalert2';
 })
 export class TipoDocumentosComponent implements OnInit {
 
-  titulo:string ='Listado Tipo Documentos';
-  lista:TipoDocumento[]=[];
- 
-  tipoDocumentos:TipoDocumento = new TipoDocumento();
-  totalRegistros=0;
-  totalPorPagina=5;
-  paginaActual=0;
-  pageSizeOptions: number[] = [5,10,25,100];
-  constructor(private service:TipoDocumentoService) { }
+  titulo: string = 'Listado Tipo Documentos';
+  lista: TipoDocumento[] = [];
+  tipoDocumentos: TipoDocumento = new TipoDocumento();
+  totalRegistros = 0;
+  totalPorPagina = 5;
+  paginaActual = 0;
+  pageSizeOptions: number[] = [5, 10, 25, 100];
+  constructor(private service: TipoDocumentoService) { }
 
   ngOnInit(): void {
     this.calcularRangos();
+
   }
 
-  editar(descripcion: string):void{    
-    this.tipoDocumentos.descripcion=descripcion;    
-    
+  editar(descripcion: string): void {
+    this.tipoDocumentos.descripcion = descripcion;
+
   }
 
-  private calcularRangos(){
+  private calcularRangos() {
     this.service.listarPagina(this.paginaActual.toString(),
-    this.totalPorPagina.toString()).subscribe(p => {
-      this.lista= p.content as TipoDocumento[];
-      this.totalRegistros = p.totalElements as number;
-    });
+      this.totalPorPagina.toString()).subscribe(p => {
+        this.lista = p.content as TipoDocumento[];
+        this.totalRegistros = p.totalElements as number;
+      });
   }
 
-  paginar(event: PageEvent):void{
+  paginar(event: PageEvent): void {
     this.paginaActual = event.pageIndex;
     this.totalPorPagina = event.pageSize;
     this.calcularRangos();
   }
-  eliminar(tipoDocumento:TipoDocumento):void{    
+  eliminar(tipoDocumento: TipoDocumento): void {
     Swal.fire({
       title: 'Esta seguro?',
       text: `Seguro de eliminar a ${tipoDocumento.descripcion} ?`,
@@ -54,19 +54,19 @@ export class TipoDocumentosComponent implements OnInit {
       confirmButtonText: 'Si, eliminar!'
     }).then((result) => {
       if (result.isConfirmed) {
-        this.service.eliminar(tipoDocumento.id).subscribe(() =>{         
+        this.service.eliminar(tipoDocumento.id).subscribe(() => {
           this.calcularRangos();
-          Swal.fire('Eliminar Tipo Documentos',`Documentos ${tipoDocumento.descripcion} eliminado con exito`,'success'); 
+          Swal.fire('Eliminar Tipo Documentos', `Documentos ${tipoDocumento.descripcion} eliminado con exito`, 'success');
         })
       }
     })
   }
-
-  modificar(tipoDocumento:TipoDocumento):void{   
-   
-        this.service.modificar(tipoDocumento).subscribe(() =>{                 
-          
-        })
-      }  
   
+  modificar(tipoDocumento: TipoDocumento): void {
+
+    this.service.modificar(tipoDocumento).subscribe(() => {
+
+    })
+  }
+
 }

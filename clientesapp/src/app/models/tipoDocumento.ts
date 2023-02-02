@@ -4,4 +4,5 @@ export class TipoDocumento {
     descripcion:string="";
     siglas:string="";
 
+    
 }
